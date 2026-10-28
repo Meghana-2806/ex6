@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kataru Meghana — Integrated M.Tech CSE student at VIT-AP building full-stack web applications with Angular, Node.js, MongoDB and SQL.">
+  <meta name="author" content="Kataru Meghana">
+  <meta name="theme-color" content="#7966f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kataru Meghana | Full-Stack Developer Portfolio">
+  <meta property="og:description" content="Education, skills and projects of Kataru Meghana, Computer Science student at VIT-AP.">
+  <title>Kataru Meghana | Full-Stack Developer Portfolio</title>
+  <script>try{var t=localStorage.getItem("portfolio-theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-smooth-scroll="true">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="brand-mark">KM</span> meghana<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link nav-contact" href="#contact">Contact <i class="bi bi-arrow-up-right"></i></a></li>
+          <li class="nav-item ms-lg-1"><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme"><i class="bi bi-moon-stars"></i><span class="theme-toggle-label">Dark</span></button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section id="home" class="hero-section section-pad">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <div class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT · OPEN TO OPPORTUNITIES</div>
+            <h1>Hi, I’m <span class="text-gradient">Kataru Meghana.</span><br> I build <span class="typed-wrap"><span id="typed" class="typed-text">things for the web</span><span class="typed-cursor" aria-hidden="true"></span></span></h1>
+            <p class="hero-copy">I’m an Integrated M. Tech Computer Science Engineering student at VIT-AP University, with a strong interest in full-stack development, databases, and building useful, data-driven applications.</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-primary-custom" href="#projects">Explore my work <i class="bi bi-arrow-up-right ms-2"></i></a>
+              <a class="btn btn-outline-custom" href="#contact">Let’s connect <i class="bi bi-chat-dots ms-2"></i></a>
+            </div>
+            <div class="hero-meta">
+              <span><i class="bi bi-geo-alt"></i> Amaravati, India</span><span class="meta-divider"></span>
+              <span><i class="bi bi-code-slash"></i> Integrated M. Tech CSE</span>
+            </div>
+            <div class="hero-stats">
+              <div><strong data-count="9.17" data-decimals="2">9.17</strong><span>Current CGPA</span></div>
+              <div><strong data-count="3">3</strong><span>Full-stack projects</span></div>
+              <div><strong data-count="93" data-suffix="%">93%</strong><span>Class X score</span></div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art-wrap">
+              <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+              <div class="profile-card">
+                <div class="profile-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="ms-auto small muted">profile.js</span></div>
+                <div class="profile-avatar"><img src="assets/profile.jpg" alt="Portrait of Kataru Meghana" width="96" height="96" onerror="this.onerror=null;this.src='assets/profile-placeholder.svg'"></div>
+                <p class="code-line"><span class="code-purple">const</span> developer = {</p>
+                <p class="code-line indent"><span class="code-blue">name</span>: <span class="code-green">'Kataru Meghana'</span>,</p>
+                <p class="code-line indent"><span class="code-blue">focus</span>: <span class="code-green">'Full-stack development'</span>,</p>
+                <p class="code-line indent"><span class="code-blue">mindset</span>: <span class="code-green">'Build, learn, improve'</span></p>
+                <p class="code-line">};</p>
+                <div class="profile-footer"><span><i class="bi bi-circle-fill"></i> Available to learn & collaborate</span><i class="bi bi-stars"></i></div>
+              </div>
+              <div class="floating-chip chip-one"><i class="bi bi-braces"></i> Clean code</div>
+              <div class="floating-chip chip-two"><i class="bi bi-lightning-charge"></i> Curious mind</div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad section-soft">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">01 / ABOUT</span><h2>A little about <span class="text-gradient">me.</span></h2><p>Technology is most exciting when it solves real problems.</p></div>
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-7"><div class="content-card about-card h-100"><div class="icon-tile"><i class="bi bi-person-workspace"></i></div><h3>Learning by building</h3><p>I’m pursuing an Integrated M. Tech in Computer Science Engineering (with Virtusa) at Vellore Institute of Technology - AP. I enjoy building full-stack applications, solving technical problems, and learning how software systems work end to end.</p><p>My interests include web development, databases, computer networks, cloud computing, and data structures and algorithms.</p><div class="interest-tags"><span>Problem solving</span><span>Web development</span><span>Teamwork</span><span>Continuous learning</span></div></div></div>
+          <div class="col-lg-5"><div class="content-card objective-card h-100"><span class="mini-label">MY CAREER OBJECTIVE</span><i class="bi bi-quote quote-icon"></i><h3>Build with purpose.</h3><p>To grow into a capable software engineer by applying my technical knowledge to meaningful projects, collaborating with others, and continuously strengthening my engineering fundamentals.</p><div class="objective-bottom"><div class="objective-symbol"><i class="bi bi-compass"></i></div><div><strong>Curiosity → Capability</strong><small>One project at a time</small></div></div></div></div>
+        </div>
+        <div class="row g-3 mt-2">
+          <div class="col-6 col-md-3"><div class="fact-card"><i class="bi bi-mortarboard"></i><strong>Student</strong><span>Always learning</span></div></div>
+          <div class="col-6 col-md-3"><div class="fact-card"><i class="bi bi-laptop"></i><strong>Developer</strong><span>Building projects</span></div></div>
+          <div class="col-6 col-md-3"><div class="fact-card"><i class="bi bi-puzzle"></i><strong>Problem solver</strong><span>Step by step</span></div></div>
+          <div class="col-6 col-md-3"><div class="fact-card"><i class="bi bi-people"></i><strong>Collaborative</strong><span>Better together</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">02 / EDUCATION</span><h2>The learning <span class="text-gradient">journey.</span></h2><p>The foundation behind the work I do.</p></div>
+        <div class="education-timeline">
+          <div class="timeline-item"><div class="timeline-marker"><i class="bi bi-mortarboard"></i></div><div class="content-card timeline-card"><div class="timeline-top"><span class="mini-label">UNDERGRADUATE</span><span class="date-pill">2024 — Present</span></div><h3>Integrated M. Tech in Computer Science Engineering (with Virtusa)</h3><p class="institution">Vellore Institute of Technology - AP · Amaravati, Andhra Pradesh</p><p>2024 – 2029 · CGPA: 9.17/10</p><div class="education-tags"><span>Computer Science</span><span>Full-stack Development</span><span>Software Engineering</span></div></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><i class="bi bi-book"></i></div><div class="content-card timeline-card"><div class="timeline-top"><span class="mini-label">HIGHER SECONDARY · CBSE</span><span class="date-pill">2022 — 2024</span></div><h3>Class XII — 90%</h3><p class="institution">The Aditya Birla Public School · Nandyal, Andhra Pradesh</p><p>Completed higher secondary education with a focus on analytical thinking and a strong academic foundation.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"><i class="bi bi-journal-bookmark"></i></div><div class="content-card timeline-card"><div class="timeline-top"><span class="mini-label">SECONDARY SCHOOL · CBSE</span><span class="date-pill">2010 — 2022</span></div><h3>Class X — 93%</h3><p class="institution">The Aditya Birla Public School · Nandyal, Andhra Pradesh</p><p>Completed secondary education and developed the academic foundation for higher studies.</p></div></div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="skills" class="section-pad section-soft">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">03 / SKILLS</span><h2>Tools in my <span class="text-gradient">toolkit.</span></h2><p>A growing set of skills I use to learn and build.</p></div>
+        <div class="row g-4">
+          <div class="col-lg-6"><div class="content-card skills-card h-100"><div class="card-heading"><div class="icon-tile"><i class="bi bi-code-square"></i></div><div><h3>Technical skills</h3><p>Languages and technologies</p></div></div>
+            <div class="skill-row"><div class="skill-label"><span>JavaScript / TypeScript</span><span>80%</span></div><div class="progress"><div class="progress-bar" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div></div></div>
+            <div class="skill-row"><div class="skill-label"><span>HTML5 & CSS3</span><span>85%</span></div><div class="progress"><div class="progress-bar" role="progressbar" style="width:85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div></div></div>
+            <div class="skill-row"><div class="skill-label"><span>Node.js / Express.js</span><span>75%</span></div><div class="progress"><div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div></div>
+            <div class="skill-row"><div class="skill-label"><span>Angular</span><span>70%</span></div><div class="progress"><div class="progress-bar" role="progressbar" style="width:70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div></div></div>
+            <div class="skill-row"><div class="skill-label"><span>SQL / PL-SQL</span><span>75%</span></div><div class="progress"><div class="progress-bar" role="progressbar" style="width:75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div></div>
+          </div></div>
+          <div class="col-lg-6"><div class="content-card skills-card h-100"><div class="card-heading"><div class="icon-tile icon-tile-lilac"><i class="bi bi-stars"></i></div><div><h3>Strengths & concepts</h3><p>How I approach my work</p></div></div>
+            <div class="skill-badges"><span><i class="bi bi-check2-circle"></i> Data Structures & Algorithms</span><span><i class="bi bi-check2-circle"></i> DBMS</span><span><i class="bi bi-check2-circle"></i> Computer Networks</span><span><i class="bi bi-check2-circle"></i> REST APIs</span><span><i class="bi bi-check2-circle"></i> MongoDB</span><span><i class="bi bi-check2-circle"></i> Redis</span><span><i class="bi bi-check2-circle"></i> Git & GitHub</span><span><i class="bi bi-check2-circle"></i> Cloud Computing</span></div>
+            <div class="learning-box"><i class="bi bi-rocket-takeoff"></i><div><strong>Currently exploring</strong><p>Full-stack development, better UI patterns, and writing maintainable code.</p></div></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-pad">
+      <div class="container">
+        <div class="section-heading"><span class="section-kicker">04 / SELECTED WORK</span><h2>Projects I’ve <span class="text-gradient">built.</span></h2><p>A few examples of how I turn concepts into working experiences.</p></div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-visual visual-blue">
+            <div class="store-mockup">
+              <div class="mock-top"><span class="mock-logo">AURELIA</span><span class="mock-search"></span><span class="mock-bag"><i class="bi bi-bag"></i></span></div>
+              <div class="store-banner"><div><small>NEW COLLECTION</small><strong>Everyday<br>essentials.</strong><span class="mock-shop-btn">SHOP NOW ↗</span></div><div class="store-product-art"><div class="product-bottle"></div><div class="product-box"></div><div class="product-orb"></div></div></div>
+              <div class="store-products"><span></span><span></span><span></span></div>
+            </div><span class="visual-number">01</span></div><div class="project-body"><div class="project-meta"><span>ANGULAR E-COMMERCE</span><i class="bi bi-arrow-up-right"></i></div><h3>Aurelia Store</h3><p>An Angular e-commerce application with a customer storefront and separate admin dashboard, including live order-status tracking and a dedicated Buy Now flow.</p><div class="project-tags"><span>Angular</span><span>TypeScript</span><span>HTML5</span><span>CSS3</span></div></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-visual visual-lilac">
+            <div class="nuvora-mockup"><div class="nuvora-sidebar"><b>N</b><span></span><span></span><span></span><span></span></div><div class="nuvora-main"><div class="nuvora-head"><strong>Store overview</strong><i class="bi bi-bell"></i></div><div class="nuvora-stats"><span><small>Products</small><b>128</b></span><span><small>Orders</small><b>36</b></span></div><div class="nuvora-order-head">Recent orders <small>VIEW ALL</small></div><div class="nuvora-order"><i class="order-dot purple"></i><span>NV-2048</span><b>Shipped</b></div><div class="nuvora-order"><i class="order-dot green"></i><span>NV-2047</span><b>Delivered</b></div><div class="nuvora-order"><i class="order-dot orange"></i><span>NV-2046</span><b>Placed</b></div></div></div><span class="visual-number">02</span></div><div class="project-body"><div class="project-meta"><span>NOSQL E-COMMERCE</span><i class="bi bi-arrow-up-right"></i></div><h3>Nuvora Market</h3><p>A NoSQL e-commerce platform built with an Express backend, MongoDB, and Redis, with a storefront and role-based catalog and order management.</p><div class="project-tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Redis</span></div></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="project-card h-100"><div class="project-visual visual-peach">
+            <div class="homevibes-mockup"><div class="food-top"><span class="food-brand"><i class="bi bi-egg-fried"></i> homevibes</span><i class="bi bi-cart3"></i></div><div class="food-heading">Fresh picks<br><b>for your table.</b></div><div class="food-grid"><div class="food-item"><div class="food-art food-art-one"><i class="bi bi-egg-fried"></i></div><small>Garden bowl</small><b>₹180</b></div><div class="food-item"><div class="food-art food-art-two"><i class="bi bi-cup-hot"></i></div><small>Herb pasta</small><b>₹220</b></div><div class="food-item"><div class="food-art food-art-three"><i class="bi bi-flower1"></i></div><small>Fresh salad</small><b>₹150</b></div></div><div class="food-order-btn">Explore menu <i class="bi bi-arrow-right"></i></div></div><span class="visual-number">03</span></div><div class="project-body"><div class="project-meta"><span>FOOD & RECIPE PLATFORM</span><i class="bi bi-arrow-up-right"></i></div><h3>HomeVibes</h3><p>A food and recipe ordering platform with a Node.js/Express backend, eight API endpoints, and an Oracle database schema for orders, dishes, ingredients, and users.</p><div class="project-tags"><span>JavaScript</span><span>Node.js</span><span>Express</span><span>Oracle SQL</span></div></div></article></div>
+        </div>
+        <div class="text-center mt-5"><a class="btn btn-outline-custom" href="https://github.com/Meghana-2806" target="_blank" rel="noopener">See more on GitHub <i class="bi bi-github ms-2"></i></a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad section-dark">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-5"><span class="section-kicker light-kicker">05 / GET IN TOUCH</span><h2 class="contact-title">Have an idea?<br><span class="text-gradient">Let’s talk.</span></h2><p class="contact-copy">I’m always happy to connect with people who enjoy building, learning, and sharing ideas. Send a message using the form.</p><div class="contact-detail"><div class="contact-icon"><i class="bi bi-envelope"></i></div><div><small>EMAIL</small><strong>meghana.24mic7069@vitapstudent.ac.in</strong></div></div><div class="contact-detail"><div class="contact-icon"><i class="bi bi-geo-alt"></i></div><div><small>LOCATION</small><strong>Amaravati, Andhra Pradesh, India</strong></div></div><div class="social-links"><a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="https://github.com/Meghana-2806" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a></div></div>
+          <div class="col-lg-7"><form id="contactForm" class="contact-form" novalidate><div class="form-header"><h3>Send a message</h3><p>Fields marked with * are required.</p></div><div class="row g-3"><div class="col-md-6"><label for="name" class="form-label">Your name *</label><input id="name" name="name" class="form-control" type="text" placeholder="Jane Smith" required minlength="2"><div class="invalid-feedback">Please enter your name (at least 2 characters).</div></div><div class="col-md-6"><label for="email" class="form-label">Email address *</label><input id="email" name="email" class="form-control" type="email" placeholder="jane@example.com" required><div class="invalid-feedback">Please enter a valid email address.</div></div><div class="col-12"><label for="subject" class="form-label">Subject *</label><input id="subject" name="subject" class="form-control" type="text" placeholder="What would you like to discuss?" required minlength="3"><div class="invalid-feedback">Please enter a subject (at least 3 characters).</div></div><div class="col-12"><label for="message" class="form-label">Message *</label><textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message here..." required minlength="10" maxlength="500"></textarea><div class="invalid-feedback">Please enter a message of at least 10 characters.</div></div><div class="col-12"><div class="char-count"><span id="charCount">0</span> / 500</div><button class="btn btn-primary-custom w-100" type="submit">Send message <i class="bi bi-send ms-2"></i></button><p id="formFeedback" class="form-feedback" role="status" aria-live="polite">Your message opens in your email app, addressed to me.</p></div></div></form></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"><a class="navbar-brand" href="#home">meghana<span class="brand-dot">.</span></a><p>Designed with care · <span id="currentYear"></span> Kataru Meghana</p><a class="back-top" href="#home">Back to top <i class="bi bi-arrow-up"></i></a></div></footer>
+  <button id="toTop" class="to-top" type="button" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
